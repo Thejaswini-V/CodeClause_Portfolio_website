@@ -1,0 +1,144 @@
+body{
+  margin:0;
+  padding: 0;
+  background-color:tomato;
+  list-style:none;
+}
+#head{
+  background-color: black;
+  width:100%;
+  height:80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+nav a{
+  text-decoration: none;
+  width:25%;
+  height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#8EAC50;
+  font-weight: bolder;
+  font-size:25px;
+  font:Georgia;
+}
+nav a:hover{
+  background-color: rgb(107, 207, 207);
+  color: black;
+}
+#home{
+  display:flex;
+  border-bottom:5px solid black;
+}
+#hometxt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  flex-direction: column;
+}
+#hskill{
+  text-align: center;
+}
+.container{
+  display: flex;
+  border-bottom:5px solid black;
+}
+
+
+#py{
+  height:10%;
+  width:40px;
+  background-color:blue;
+}
+.services{
+  display:flex;
+  column-gap: 60px;
+  padding: 40px;
+  border-bottom:5px solid black;
+  text-align: center;
+}
+.s{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact{
+  display: flex;
+  text-align: center;
+  margin-left: 70px;
+}
+.c{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+.c a{
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+}
+.c a:visited{
+  text-decoration: none;
+  color: black;
+}
+.container{
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container li{
+  margin:20px 0;
+  padding:10px;
+}
+h3{
+  font-size:30px;
+}
+.bar{
+  background:#353b48;
+  display: block;
+  height: 20px;
+  border:1px solid rgba(0,0,0,0.3);
+  overflow: hidden;
+  border-radius:10px;
+  transition:all 0.3s cubic-bezier(.25,.8,.25);
+  width:500px;
+}
+.bar span{
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg ,rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
+}
+.python{
+  width:75%;
+  animation: python 3s;
+}
+.html{
+  width:90%;
+  animation: html 3s;
+}
+.css{
+  width:70%;
+  animation: css 3s;
+}
+.javascript{
+  width:50%;
+  animation: javascript 3s;
+}
+.clang{
+  width:45%;
+  animation: clang 3s;
+}
